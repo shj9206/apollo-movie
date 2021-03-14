@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import client from "./apollo";
-import { ApolloClient, ApolloProvider } from '@apollo/client';
+import {  ApolloProvider } from '@apollo/client';
 import App from './components/App';
 
 
