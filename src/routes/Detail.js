@@ -76,7 +76,7 @@ export default () => {
             <Title>
             {loading
                 ? "Loading..."
-                : `${data.movie.title} ${data.movie.isLiked ? "😞" : "💖"}`}
+                : `${data.movie.title} ${data.movie.isLiked ? "💖":"😞"}`}
             </Title>    
                 <Subtitle>
                 {data?.movie?.language} · {data?.movie?.rating}
